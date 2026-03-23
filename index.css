@@ -228,7 +228,7 @@ nav {
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   overflow: hidden;
 }
 .hero-bg {
@@ -245,8 +245,15 @@ nav {
       rgba(60, 20, 120, 0.08) 0%,
       transparent 60%
     ),
-    var(--bg);
+    url("https://images.stockcake.com/public/2/b/5/2b5ffc99-4d5d-4ae7-a426-2335695b1ebc/intense-gym-workout-stockcake.jpg")
+      center/cover no-repeat;
   z-index: 0;
+}
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 .hero-grid {
   position: absolute;
@@ -482,7 +489,8 @@ nav {
 .hero-athlete-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #0f0d1a 0%, #1a1030 100%);
+  /* background: linear-gradient(135deg, #0f0d1a 0%, #1a1030 100%); */
+  background: transparent;
 }
 .hero-athlete-emoji {
   font-size: 180px;
