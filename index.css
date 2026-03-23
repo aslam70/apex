@@ -254,7 +254,7 @@ nav {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-   z-index: 1;
+  /* z-index: 1; */
 }
 .hero-grid {
   position: absolute;
@@ -456,43 +456,6 @@ nav {
   text-transform: uppercase;
   margin-top: 4px;
 }
-
-/* Hero right visual */
-/* .hero-right {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 46%;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.hero-right-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-video-placeholder {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 12px;
-}
-.hero-athlete-bg {
-  position: absolute;
-  inset: 0;
-  /* background: linear-gradient(135deg, #0f0d1a 0%, #1a1030 100%); */
-  background: transparent;
-}
 .hero-athlete-emoji {
   font-size: 180px;
   opacity: 0.07;
@@ -530,7 +493,8 @@ nav {
   width: 200px;
   background: linear-gradient(to right, var(--bg), transparent);
   z-index: 2;
-} */
+}
+*/
 
 /* Scroll indicator */
 .hero-scroll {
