@@ -228,7 +228,7 @@ nav {
   position: relative;
   min-height: 100vh;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   overflow: hidden;
 }
 .hero-bg {
@@ -254,6 +254,7 @@ nav {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
+   z-index: 1;
 }
 .hero-grid {
   position: absolute;
@@ -457,7 +458,7 @@ nav {
 }
 
 /* Hero right visual */
-.hero-right {
+/* .hero-right {
   position: absolute;
   right: 0;
   top: 0;
@@ -529,7 +530,7 @@ nav {
   width: 200px;
   background: linear-gradient(to right, var(--bg), transparent);
   z-index: 2;
-}
+} */
 
 /* Scroll indicator */
 .hero-scroll {
