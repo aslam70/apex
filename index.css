@@ -1,3 +1,23 @@
+@media (max-width: 768px) {
+  .hamburger {
+    display: block !important;
+  }
+
+  .nav-links.mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: rgba(8, 7, 15, 0.97);
+    backdrop-filter: blur(20px);
+    padding: 24px 20px;
+    border-bottom: 1px solid var(--border);
+    gap: 20px;
+    z-index: 99;
+  }
+}
 :root {
   --bg: #08070f;
   --surface: #0f0d1a;
@@ -653,6 +673,8 @@ nav {
   position: absolute;
   inset: 0;
   transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -675,12 +697,28 @@ nav {
 .cat-card:nth-child(5) .cat-bg {
   background: linear-gradient(135deg, #0e1418, #0a0d10);
 }
+
 .cat-icon-bg {
   font-size: 110px;
-  opacity: 0.06;
+  opacity: 0.85;
+  position: absolute;
+   inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition:
     opacity 0.4s,
     transform 0.6s;
+}
+.cat-icon-bg img {
+  max-width: 100%;    
+  max-height: 100%;     
+  width: 100%;       
+  height: 100%; 
+  display: block;
+   object-position: center top;       
+  object-fit: cover; 
+  object-position: center top;
 }
 .cat-card:hover .cat-icon-bg {
   opacity: 0.1;
@@ -819,15 +857,25 @@ nav {
   opacity: 1;
 }
 .product-emoji {
-  font-size: 72px;
-  opacity: 0.12;
+  /* font-size: 72px; */
+    inset: 0;
+  position: absolute;
+  opacity: 0.5;
   transition:
     transform 0.5s,
     opacity 0.3s;
 }
+.product-emoji img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 .product-card:hover .product-emoji {
   transform: scale(1.1);
-  opacity: 0.18;
+  opacity: 0.85;
 }
 .badge {
   position: absolute;
