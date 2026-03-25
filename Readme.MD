@@ -57,7 +57,7 @@ apex-ecommerce/
 **Md. Aslam Hosen**
 Frontend Developer — Dhaka, Bangladesh
 
-- Portfolio: [aslam-dev.netlify.app](https://aslam-dev.netlify.app)
+- Portfolio: [aslam-dev-ecru.vercel.app](https://aslam-dev-ecru.vercel.app/)
 - LinkedIn: [linkedin.com/in/md-aslam-hosen-8594702b8](https://linkedin.com/in/md-aslam-hosen-8594702b8)
 - GitHub: [github.com/aslam70](https://github.com/aslam70)
 
