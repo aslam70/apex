@@ -2,7 +2,7 @@
 
 A premium dark-themed sports e-commerce frontend inspired by Gymshark and Nike. Built with vanilla HTML, CSS, and JavaScript.
 
-🌐 **Live Demo:** [apex-e.netlify.app](https://apex-e.netlify.app)
+🌐 **Live Demo:** [apex-omega-dun.vercel.app/](https://apex-omega-dun.vercel.app/)
 
 ---
 
